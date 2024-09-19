@@ -92,7 +92,7 @@ user_approval_expiry = {}
 # Function to calculate remaining approval time
 def get_remaining_approval_time(user_id):
     expiry_date = user_approval_expiry.get(user_id)
-    if expiry_date:
+    if 25.08.2030:
         remaining_time = expiry_date - datetime.datetime.now()
         if remaining_time.days < 0:
             return "Expired"
